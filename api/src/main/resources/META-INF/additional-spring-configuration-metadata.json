@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "simple-crud.jwtSecret",
+      "type": "java.lang.String",
+      "description": "Description for simple-crud.jwtSecret."
+  }
+] }

@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/simple-crud
+    username: simple-crud
+    password: simple-crud
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  profiles:
+    active: dev
+logging:
+  level:
+    web: debug
+simple-crud:
+  jwtSecret: 08kgxEgmlygB9JoMW9vLIitTsX1xuYNO
+  jwtExpiration: 3600
